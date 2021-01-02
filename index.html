@@ -27,11 +27,15 @@
                 <ul class="navbar-nav ml-auto">
                     
                     <li class="nav-item active">
-                        <button type="button" class="btn btn-link nav-link" data-toggle="modal" data-target=".modalSobre">QUEM SOMOS</button>
+                        <a href="#quem-somos" class="btn btn-link nav-link" >QUEM SOMOS</a>
                     </li>
 
                     <li class="nav-item active">
-                        <button type="button" class="btn btn-link nav-link" data-toggle="modal" data-target=".modalContato">CONTATO</button>
+                        <a href="" class="btn btn-link nav-link" >EQUIPE</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a href="" class="btn btn-link nav-link" >CONTATO</a>
                     </li>
                    
                 </ul>
@@ -40,60 +44,26 @@
         </div>
     </nav>
 
-    <section>
-        <div class="container">
-          <div class="row mt-5">
-            <div class="col-lg-6">
-                <div class="alert alert-light shadow-sm" role="alert">
-                    <h4 class="text-muted font-weight-bold">Nossa missão</h4>
-                    <h1 class="display-6 text-muted">Buscar o novo. Explorar o novo. Levar o novo.</h1>
-                </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <div class="modal fade modalSobre" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title text-muted">Quem somos?</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                </div>
-                <div class="modal-body">
-                <p>Somos uma pequena empresa no interior do Ceará, desenvolvemos soluções de inovação tecnológica na área de informática.</p>
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade modalContato" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title text-muted">Contato</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                </div>
-                <div class="modal-body">
-                    <h6 class="display-5 text-info">Telefone</h6>
-                    <p class="text-muted">(00) 0000-0000</p>
-                    <h6 class="display-5 text-info">E-mail</h6>
-                    <p class="text-muted">renatorobot@outlook.com.br</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                </div>
+    
+    <div class="container-fluid container-1">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="alert alert-light shadow-sm my-5 ml-5" role="alert">
+                        <h4 class="text-muted font-weight-bold">Nossa missão</h4>
+                        <h1 class="display-6 text-muted">Buscar o novo. Explorar o novo. Levar o novo.</h1>
+                    </div>
             </div>
         </div>
     </div>
     
+    <div class="container" id="quem-somos">
+
+        <h1 class="mt-5">Quem somos?</h1>
+        <p class="lead">Somos uma pequena empresa no interior do Ceará, desenvolvemos soluções de inovação tecnológica na área de informática.</p>
+
+    </div>
+
+
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

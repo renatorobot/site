@@ -5,12 +5,13 @@ nav, h1, h5{
 }
 
 
-body {
+.container-1{
 
     background: url('../imagens/fundo.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height: 36em;
    
   }
   
